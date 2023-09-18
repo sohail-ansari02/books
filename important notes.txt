@@ -1,0 +1,12 @@
+application in browsers,
+are made up of functionalities to manipulate dom ,access the events and pheripherals access  from user devices like keyboard,mouse and webcam,etc.
+
+like C language gives API to print text on screen,
+browsers also give use API to to access the peripherels of the machine as much as possible by using javascript programming.
+each browser have their own javscript engine to execute javscript statements and interprete javascript script.
+
+code to replay the video again and again.
+videoElement.addEventListener('ended',()=>{ videoElement.play(); } );
+
+request pictuer in picture
+document.getElementsByTagName('video')[0].requestPictureInPicture();

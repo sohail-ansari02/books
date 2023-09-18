@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .obj {
+        background: gainsboro;
+        height: 300px;
+        width: 300px;
+        transform: scale(0.4) rotate(45deg);
+        transition: 0.4s;
+        transition-timing-function: cubic-bezier(0.39, -0.16, 0.69, 0);
+        box-shadow: 0px 0px 10px 5px #068079;
+        position: relative;
+      }
+      .obj:hover {
+        transition: 0.4s;
+        transition-timing-function: cubic-bezier(1, -0.41, 0, 1.51);
+        transform: scale(1.5) rotate(0deg);
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 3px #068079, inset 0px 0px 9px 0px #068079;
+      }
+      body {
+        background: lightseagreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="obj"></div>
+  </body>
+</html>

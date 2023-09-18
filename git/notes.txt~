@@ -1,0 +1,16 @@
+git: lists its options and the most common subcommands.
+
+echo 'string' > file_name : craete a new file and stores string
+
+git [init[/ path_of_repo]] : initialize git path
+
+git add file_name : stages files 
+
+git log : yields a sequential history of the individual commits within the
+repo.
+
+git show <commit_id> [--more=10]: displays more detail about a particular commit.
+
+git log --online : displays commits history in one line(less description)
+
+
